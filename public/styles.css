@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1.5rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: blue;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background: #f1f1f1;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* contact */
+.containerContact {
+  width: 50vw;
+  border: 1px solid grey;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.containerContact__containerTitle {
+  text-align: center;
+}
+
+.containerContact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form__block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form__block input,
+textarea {
+  padding: 0.8rem;
+  border: 1px solid gray;
+  border-radius: 0.3rem;
+}
+
+textarea::placeholder {
+  color: #999; /* Assure-toi que la couleur est visible */
+}

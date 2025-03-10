@@ -1,0 +1,19 @@
+{
+  "name": "express_checkpoint",
+  "version": "1.0.0",
+  "description": "Express (Routing) Checkpoint",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "kalo soualio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

@@ -1,0 +1,20 @@
+extends layout
+
+block main 
+  div.containerContact 
+    div.containerContact__containerTitle
+      h2.containerContact__title Entrez vos informations
+      p.containerContact__paragr Nous utilisons ces informations pour vous contacter rapidement
+    form(action="#", method="post").containerContact__form
+      div.form__block
+        label(for="lastname") Nom* 
+        input(type="text", name="", placeholder="kalo", id="lastname")
+      div.form__block
+        label(for="firstname") Prénom*
+        input(type="text", name="", placeholder="soualio", id="firstname")
+      div.form__block
+        label(for="email") Email*
+        input(type="email", name="", placeholder="kalosoualio@gmail.com", id="email")
+      div.form__block
+        label(for="message") Votre message*
+        textarea(name="" cols="30" rows="10" placeholder="Expliquez-nous comment nous pouvons vous aider ou posez vos questions" id="message") 
