@@ -1,1 +1,77 @@
 extends layout
+
+block main
+    // Home Section
+    section#home.section.home
+      div.home_content
+        h1 Bienvenue sur mon Portfolio
+        p Je suis un développeur frontend passionné par la création de belles interfaces web.
+
+    // About Section
+    section#about.section.about
+      h2 About Me
+      div.aboutMe
+        div.aboutMe_card
+          img(src="./assets/me1.jpg" alt="")
+        div.aboutMe_present
+          p
+            | Je m'appelle KALO Soualio, et je suis un développeur frontend passionné par la création d'interfaces utilisateur intuitives et réactives. Avec [nombre] années d'expérience dans le développement web, j'ai eu l'opportunité de travailler sur des projets variés, allant de sites web d'entreprise à des applications web complexes.
+            br
+            br
+            | Mon objectif est de continuer à améliorer mes compétences en développement frontend et à créer des expériences utilisateur exceptionnelles. Je suis toujours à la recherche de nouvelles technologies et de meilleures pratiques pour rester à la pointe de l'innovation.
+            br
+            br
+            | En dehors du travail, j'aime m'entraîner sur le site de FRONTEND MENTOR, chercher des designs de site web sur Pinterest et écouter de la musique, ce qui me permet de rester créatif et inspiré. N'hésitez pas à me contacter pour discuter de développement web ou pour toute opportunité de collaboration.
+      div.competences
+        h2 Mes compétences
+        div.competences_items
+          div.competence_item
+            img(src="./assets/HTML.jpg" alt="")
+            span HTML
+          div.competence_item
+            img(src="./assets/CSS.jpg" alt="")
+            span CSS          
+          div.competence_item
+            img(src="./assets/Javascript.jpg" alt="")
+            span JavaScript          
+          div.competence_item
+            img(src="./assets/React.jpg" alt="")
+            span React          
+          div.competence_item
+            img(src="./assets/Angular.jpg" alt="")
+            span Angular          
+          div.competence_item
+            img(src="./assets/Vue_js.jpg" alt="")
+            span Vue.js
+
+    // Work Section
+    section#work.section.work
+      h2 My Work
+      p Voici quelques projets sur lesquels j'ai travaillé :
+      div.projects
+
+        div.project_item
+          img(src="./assets/img (3).webp" alt="")
+          h4.title Application de gestion de tâches (React, Firebase)
+          p.description
+            |Une application web permettant aux utilisateurs de créer, organiser
+            |et suivre leurs tâches quotidiennes avec des fonctionnalités comme
+            |des listes, des priorités et des notifications.
+
+        div.project_item
+          img(src="./assets/img (2).webp" alt="")
+          h4.title Portfolio personnel (HTML, CSS, JavaScript)
+          p.description
+            |Un site web vitrine présentant votre parcours, vos compétences, vos
+            |projets, et vos coordonnées pour une meilleure visibilité
+            |professionnelle.
+
+        div.project_item
+          img(src="./assets/img (1).webp" alt="")
+          h4.title Refonte d'un site d'entreprise (SEO, Performance)
+          p.description
+            |Un projet de modernisation d’un site web pour améliorer son
+            |positionnement sur les moteurs de recherche et optimiser les temps
+            |de chargement.
+
+    
